@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /app
-    destination: /opt/bitnami/apache2/htdocs/test
+    destination: /opt/bitnami/apache2/htdocs/fazam
 hooks:
   ApplicationStart:
     - location: start_service
